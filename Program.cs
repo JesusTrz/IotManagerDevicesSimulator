@@ -4,7 +4,9 @@ using Microsoft.AspNetCore.SignalR.Client;
 // Dispositivo Inicial
 var dispositivo = new DeviceIot
 {
-    MacAddress = "AA:BB:CC:DD:EE:FF", // ID FISICA
+    //MacAddress = "11:22:33:44:55:66",
+    MacAddress = "AA:22:BB:44:CC:66",
+    //MacAddress = "AA:BB:CC:DD:EE:FF", // ID FISICA
     Nombre = "Sensor de Oficina",
     Tipo = "SensorTemperatura",
 
